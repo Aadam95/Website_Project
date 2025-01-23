@@ -14,9 +14,20 @@
             height: 100vh;
         }
         .banner {
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.4);
             backdrop-filter: blur(10px);
             border-radius: 15px;
+        }
+        .nav-button {
+            background-color: #000;
+            color: #ffcc00;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .nav-button:hover {
+            background-color: #FDFD96;
+            color: #000;
         }
     </style>
 </head>
@@ -25,9 +36,9 @@
         <header class="bg-yellow-400 text-black p-4 text-center rounded shadow-md">
             <h1 class="text-3xl font-bold">Marvel Rivals</h1>
             <nav class="mt-2 flex justify-center">
-                <a href="index.html" class="mx-2 bg-black text-yellow-400 py-1 px-3 rounded-full shadow-md">Home</a>
-                <a href="characters.html" class="mx-2 bg-black text-yellow-400 py-1 px-3 rounded-full shadow-md">Characters</a>
-                <a href="artwork.html" class="mx-2 bg-black text-yellow-400 py-1 px-3 rounded-full shadow-md">Artwork</a>
+                <a href="index.html" class="mx-2 nav-button">Home</a>
+                <a href="characters.html" class="mx-2 nav-button">Characters</a>
+                <a href="artwork.html" class="mx-2 nav-button">Artwork</a>
             </nav>
         </header>
         <main class="p-4">
