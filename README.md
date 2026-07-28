@@ -1,6 +1,6 @@
 # 🕸️ Website Project — Marvel Rivals Fan Site
 
-A multi-page fan site built during the [CODE Lancashire](https://codelancashire.co.uk) coding bootcamp, created to practise HTML, CSS and JavaScript fundamentals using Marvel Rivals as the subject matter.
+A multi-page fan site built during the CODE Lancashire coding bootcamp, created to practise HTML, CSS and JavaScript fundamentals using Marvel Rivals as the subject matter.
 
 ## 💡 What it does
 
